@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Post | A R T]]></title>
   <link href="http://agung1878.github.io/art/blog/categories/post/atom.xml" rel="self"/>
   <link href="http://agung1878.github.io/art/"/>
-  <updated>2018-04-13T11:10:37+07:00</updated>
+  <updated>2018-04-13T11:13:50+07:00</updated>
   <id>http://agung1878.github.io/art/</id>
   <author>
     <name><![CDATA[Agung]]></name>
@@ -14,31 +14,154 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Deploying]]></title>
-    <link href="http://agung1878.github.io/art/blog/2018/04/13/deploying/"/>
-    <updated>2018-04-13T10:40:29+07:00</updated>
-    <id>http://agung1878.github.io/art/blog/2018/04/13/deploying</id>
-    <content type="html"><![CDATA[<p>Deploying (GITHUB, HEROKU, RSYNC)</p>
+    <title type="html"><![CDATA[Markdown Syntax]]></title>
+    <link href="http://agung1878.github.io/art/blog/2018/04/12/markdown-syntax/"/>
+    <updated>2018-04-12T13:51:59+07:00</updated>
+    <id>http://agung1878.github.io/art/blog/2018/04/12/markdown-syntax</id>
+    <content type="html"><![CDATA[<p>As u know octopress use markdown as a result file, and for that there is different syntax from html basic.
+So here example syntax for writting in markdown.</p>
 
-<p>Here are some nice and easy ways to deploy your Octopress blog.</p>
+<p>==HEADER==</p>
 
-<h3>GitHub Pages</h3>
+<p>Codes:
+```ruby</p>
 
-<p>Hosting your blog with GitHub&rsquo;s <a href="http://pages.github.com/">Pages service </a> is free and allows custom domains. To deploy you simply push your repository to GitHub. This is a great way to host a personal blog, or even a multi-author blog, where contributions can be handled with pull requests and commit access.</p>
+<h1>H1</h1>
 
-<p><a href="http://octopress.org/docs/deploying/github">Deploying to GitHub Pages »</a></p>
+<h6>H6</h6>
 
-<h3>Heroku</h3>
+<pre><code>Result:
 
-<p>Like GitHub Pages, Heroku is also free, allows custom domains, and uses a git based deployment workflow. Heroku is a bit simpler to use and your blog repository remains private.</p>
+# This is H1
+###### This is H6
 
-<p><a href="http://octopress.org/docs/deploying/heroku">Deploying to Heroku »</a></p>
+. . .
 
-<h3>Rsync</h3>
+==LISTS==
 
-<p>If you have web hosting service you can probably deploy with <a href="http://en.wikipedia.org/wiki/Rsync">Rsync</a> which is brilliantly fast, syncing new and changed files through SSH. If your host doesn&rsquo;t offer SSH access, and you&rsquo;re looking for one that does, check out <a href="http://www.dreamhost.com/r.cgi?109007">DreamHost</a> (I&rsquo;ve been a happy customer since 2005).</p>
+Unordered
 
-<p><a href="http://octopress.org/docs/deploying/rsync">Deploying with Rsync »</p>
+Codes:
+</code></pre>
+
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 2a</li>
+<li><p>Item 2b
+```
+Result:</p></li>
+<li><p>List Unordered 1</p></li>
+<li>List Unordered 2</li>
+<li>List Unordered 2a</li>
+<li>List Unordered 2b</li>
+</ul>
+
+
+<p>Ordered</p>
+
+<p>Codes:
+<code>ruby
+1. Item 1
+2. Item 2
+3. Item 3
+ * Item 3a
+ * Item 3b
+</code>
+Result:</p>
+
+<ol>
+<li>List Ordered 1</li>
+<li>List Ordered 2</li>
+<li>List Ordered 3</li>
+<li>List Ordered 3a</li>
+<li>List Ordered 3b</li>
+</ol>
+
+
+<p>&hellip;</p>
+
+<p> ==IMAGES==</p>
+
+<p> Codes:
+<code>ruby
+![Linux Logo](/images/logo.png)
+</code>
+Result:</p>
+
+<p><img src="/images/linux.png" alt="Linux Logo" /></p>
+
+<p>As of this writing, Markdown has no syntax for specifying the dimensions of an image; if this is important to you, you can simply use regular HTML <code>&lt;img&gt;</code> tags.</p>
+
+<p>&hellip;</p>
+
+<p>==Links==</p>
+
+<p>Codes:
+<code>ruby
+http://google.com - automatic!
+[Google](http://google.com)
+</code>
+Result:</p>
+
+<p><a href="http://google.com">http://google.com</a> - automatic!
+<a href="http://google.com">Google</a></p>
+
+<p>&hellip;</p>
+
+<p>==BLOCKQUOTES==</p>
+
+<p>Codes:
+```ruby
+As Grace Hopper said:</p>
+
+<blockquote><p>I’ve always been more interested
+in the future than in the past.
+```
+Result:</p></blockquote>
+
+<p>As Grace Hopper said:</p>
+
+<blockquote><p>I’ve always been more interested
+in the future than in the past.</p></blockquote>
+
+<p>&hellip;</p>
+
+<p>==BACKSLASH ESCAPES==</p>
+
+<p>Markdown allows you to use backslash escapes to generate literal characters which
+would otherwise have special meaning in Markdown’s formating syntax.</p>
+
+<p>Codes:
+<code>ruby
+\*literal asterisks\*
+</code>
+Result:</p>
+
+<p>*literal asterisks*</p>
+
+<p>Markdown provides backslash escapes for
+the following characters:
+Codes:
+<code>``ruby
+\ backslash
+</code> backtick
+* asterisk
+_ underscore
+{} curly braces
+[] square brackets
+() parentheses</p>
+
+<h1>hash mark</h1>
+
+<ul>
+<li>plus sign</li>
+<li>minus sign (hyphen)
+. dot
+! exclamation mark
+```</li>
+</ul>
+
 ]]></content>
   </entry>
   
