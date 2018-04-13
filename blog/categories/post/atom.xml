@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Post | A R T]]></title>
   <link href="http://agung1878.github.io/art/blog/categories/post/atom.xml" rel="self"/>
   <link href="http://agung1878.github.io/art/"/>
-  <updated>2018-04-13T11:13:50+07:00</updated>
+  <updated>2018-04-13T11:32:14+07:00</updated>
   <id>http://agung1878.github.io/art/</id>
   <author>
     <name><![CDATA[Agung]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deploying]]></title>
+    <link href="http://agung1878.github.io/art/blog/2018/04/13/deploying/"/>
+    <updated>2018-04-13T10:40:29+07:00</updated>
+    <id>http://agung1878.github.io/art/blog/2018/04/13/deploying</id>
+    <content type="html"><![CDATA[<p>Deploying (GITHUB, HEROKU, RSYNC)</p>
+
+<p>Here are some nice and easy ways to deploy your Octopress blog.</p>
+
+<h3>GitHub Pages</h3>
+
+<p>Hosting your blog with GitHub&rsquo;s <a href="http://pages.github.com/">Pages service </a> is free and allows custom domains. To deploy you simply push your repository to GitHub. This is a great way to host a personal blog, or even a multi-author blog, where contributions can be handled with pull requests and commit access.</p>
+
+<p><a href="http://octopress.org/docs/deploying/github">Deploying to GitHub Pages »</a></p>
+
+<h3>Heroku</h3>
+
+<p>Like GitHub Pages, Heroku is also free, allows custom domains, and uses a git based deployment workflow. Heroku is a bit simpler to use and your blog repository remains private.</p>
+
+<p><a href="http://octopress.org/docs/deploying/heroku">Deploying to Heroku »</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Markdown Syntax]]></title>
@@ -23,35 +46,42 @@ So here example syntax for writting in markdown.</p>
 
 <p>==HEADER==</p>
 
-<p>Codes:
-```ruby</p>
+<!-- Codes:
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># H1</span>
+</span><span class='line'><span class="c1">###### H6</span>
+</span></code></pre></td></tr></table></div></figure> -->
 
-<h1>H1</h1>
 
-<h6>H6</h6>
+<p>Result:</p>
 
-<pre><code>Result:
+<h1>This is H1</h1>
 
-# This is H1
-###### This is H6
+<h6>This is H6</h6>
 
-. . .
+<p>&hellip;</p>
 
-==LISTS==
+<p>==LISTS==</p>
 
-Unordered
+<p>Unordered</p>
 
-Codes:
-</code></pre>
+<!-- Codes:
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">*</span> <span class="no">Item</span> <span class="mi">1</span>
+</span><span class='line'><span class="o">*</span> <span class="no">Item</span> <span class="mi">2</span>
+</span><span class='line'><span class="o">*</span> <span class="no">Item</span> <span class="mi">2</span><span class="n">a</span>
+</span><span class='line'><span class="o">*</span> <span class="no">Item</span> <span class="mi">2</span><span class="n">b</span>
+</span></code></pre></td></tr></table></div></figure> -->
+
+
+<p>Result:</p>
 
 <ul>
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 2a</li>
-<li><p>Item 2b
-```
-Result:</p></li>
-<li><p>List Unordered 1</p></li>
+<li>List Unordered 1</li>
 <li>List Unordered 2</li>
 <li>List Unordered 2a</li>
 <li>List Unordered 2b</li>
@@ -60,15 +90,21 @@ Result:</p></li>
 
 <p>Ordered</p>
 
-<p>Codes:
-<code>ruby
-1. Item 1
-2. Item 2
-3. Item 3
- * Item 3a
- * Item 3b
-</code>
-Result:</p>
+<!-- Codes:
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="mi">1</span><span class="o">.</span> <span class="no">Item</span> <span class="mi">1</span>
+</span><span class='line'><span class="mi">2</span><span class="o">.</span> <span class="no">Item</span> <span class="mi">2</span>
+</span><span class='line'><span class="mi">3</span><span class="o">.</span> <span class="no">Item</span> <span class="mi">3</span>
+</span><span class='line'> <span class="o">*</span> <span class="no">Item</span> <span class="mi">3</span><span class="n">a</span>
+</span><span class='line'> <span class="o">*</span> <span class="no">Item</span> <span class="mi">3</span><span class="n">b</span>
+</span></code></pre></td></tr></table></div></figure> -->
+
+
+<p>Result:</p>
 
 <ol>
 <li>List Ordered 1</li>
@@ -83,11 +119,14 @@ Result:</p>
 
 <p> ==IMAGES==</p>
 
-<p> Codes:
-<code>ruby
-![Linux Logo](/images/logo.png)
-</code>
-Result:</p>
+<!-- 
+ Codes:
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">![</span><span class="no">Linux</span> <span class="no">Logo</span><span class="o">]</span><span class="p">(</span><span class="sr">/images/</span><span class="n">logo</span><span class="o">.</span><span class="n">png</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure> -->
+
+
+<p>Result:</p>
 
 <p><img src="/images/linux.png" alt="Linux Logo" /></p>
 
@@ -97,12 +136,15 @@ Result:</p>
 
 <p>==Links==</p>
 
-<p>Codes:
-<code>ruby
-http://google.com - automatic!
-[Google](http://google.com)
-</code>
-Result:</p>
+<!-- Codes:
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">google</span><span class="o">.</span><span class="n">com</span> <span class="o">-</span> <span class="n">automatic!</span>
+</span><span class='line'><span class="o">[</span><span class="no">Google</span><span class="o">]</span><span class="p">(</span><span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">google</span><span class="o">.</span><span class="n">com</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure> -->
+
+
+<p>Result:</p>
 
 <p><a href="http://google.com">http://google.com</a> - automatic!
 <a href="http://google.com">Google</a></p>
@@ -111,14 +153,17 @@ Result:</p>
 
 <p>==BLOCKQUOTES==</p>
 
-<p>Codes:
-```ruby
-As Grace Hopper said:</p>
+<!-- Codes:
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="no">As</span> <span class="no">Grace</span> <span class="no">Hopper</span> <span class="ss">said</span><span class="p">:</span>
+</span><span class='line'><span class="o">&gt;</span> <span class="n">I</span><span class="err">’</span><span class="n">ve</span> <span class="n">always</span> <span class="n">been</span> <span class="n">more</span> <span class="n">interested</span>
+</span><span class='line'><span class="o">&gt;</span> <span class="k">in</span> <span class="n">the</span> <span class="n">future</span> <span class="n">than</span> <span class="k">in</span> <span class="n">the</span> <span class="n">past</span><span class="o">.</span>
+</span></code></pre></td></tr></table></div></figure> -->
 
-<blockquote><p>I’ve always been more interested
-in the future than in the past.
-```
-Result:</p></blockquote>
+
+<p>Result:</p>
 
 <p>As Grace Hopper said:</p>
 
@@ -132,35 +177,47 @@ in the future than in the past.</p></blockquote>
 <p>Markdown allows you to use backslash escapes to generate literal characters which
 would otherwise have special meaning in Markdown’s formating syntax.</p>
 
-<p>Codes:
-<code>ruby
-\*literal asterisks\*
-</code>
-Result:</p>
+<!-- Codes:
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="p">\</span><span class="o">*</span><span class="n">literal</span> <span class="n">asterisks</span><span class="p">\</span><span class="o">*</span>
+</span></code></pre></td></tr></table></div></figure> -->
+
+
+<p>Result:</p>
 
 <p>*literal asterisks*</p>
 
 <p>Markdown provides backslash escapes for
-the following characters:
-Codes:
-<code>``ruby
-\ backslash
-</code> backtick
-* asterisk
-_ underscore
-{} curly braces
-[] square brackets
-() parentheses</p>
+the following characters:</p>
 
-<h1>hash mark</h1>
+<!-- Codes:
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="p">\</span> <span class="n">backslash</span>
+</span><span class='line'><span class="sb">` backtick</span>
+</span><span class='line'><span class="sb">* asterisk</span>
+</span><span class='line'><span class="sb">_ underscore</span>
+</span><span class='line'><span class="sb">{} curly braces</span>
+</span><span class='line'><span class="sb">[] square brackets</span>
+</span><span class='line'><span class="sb">() parentheses</span>
+</span><span class='line'><span class="sb"># hash mark</span>
+</span><span class='line'><span class="sb">+ plus sign</span>
+</span><span class='line'><span class="sb">- minus sign (hyphen)</span>
+</span><span class='line'><span class="sb">. dot</span>
+</span><span class='line'><span class="sb">! exclamation mark</span>
+</span></code></pre></td></tr></table></div></figure> -->
 
-<ul>
-<li>plus sign</li>
-<li>minus sign (hyphen)
-. dot
-! exclamation mark
-```</li>
-</ul>
+
 
 ]]></content>
   </entry>
