@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Post | A R T]]></title>
   <link href="http://agung1878.github.io/art/blog/categories/post/atom.xml" rel="self"/>
   <link href="http://agung1878.github.io/art/"/>
-  <updated>2018-04-13T10:56:13+07:00</updated>
+  <updated>2018-04-13T11:06:19+07:00</updated>
   <id>http://agung1878.github.io/art/</id>
   <author>
     <name><![CDATA[Agung]]></name>
@@ -18,7 +18,7 @@
     <link href="http://agung1878.github.io/art/blog/2018/04/13/deploying/"/>
     <updated>2018-04-13T10:40:29+07:00</updated>
     <id>http://agung1878.github.io/art/blog/2018/04/13/deploying</id>
-    <content type="html"><![CDATA[<p>Deploying (GITHUB)</p>
+    <content type="html"><![CDATA[<p>Deploying (GITHUB, HEROKU, RSYNC)</p>
 
 <p>Here are some nice and easy ways to deploy your Octopress blog.</p>
 
