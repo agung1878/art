@@ -4,7 +4,7 @@
   <title><![CDATA[A R T]]></title>
   <link href="http://agung1878.github.io/art/atom.xml" rel="self"/>
   <link href="http://agung1878.github.io/art/"/>
-  <updated>2018-04-13T10:44:58+07:00</updated>
+  <updated>2018-04-13T10:46:52+07:00</updated>
   <id>http://agung1878.github.io/art/</id>
   <author>
     <name><![CDATA[Agung]]></name>
@@ -24,7 +24,7 @@
 
 <p>GitHub Pages</p>
 
-<p>Hosting your blog with GitHub&rsquo;s <a href="pages.github.com" Pages service</a> is free and allows custom domains. To deploy you simply push your repository to GitHub. This is a great way to host a personal blog, or even a multi-author blog, where contributions can be handled with pull requests and commit access.</p>
+<p>Hosting your blog with GitHub&rsquo;s <a href="pages.github.com">Pages service </a> is free and allows custom domains. To deploy you simply push your repository to GitHub. This is a great way to host a personal blog, or even a multi-author blog, where contributions can be handled with pull requests and commit access.</p>
 ]]></content>
   </entry>
   
