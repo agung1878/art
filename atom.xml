@@ -4,7 +4,7 @@
   <title><![CDATA[A R T]]></title>
   <link href="http://agung1878.github.io/art/atom.xml" rel="self"/>
   <link href="http://agung1878.github.io/art/"/>
-  <updated>2018-04-17T13:32:03+07:00</updated>
+  <updated>2018-04-17T13:34:05+07:00</updated>
   <id>http://agung1878.github.io/art/</id>
   <author>
     <name><![CDATA[Agung]]></name>
@@ -27,28 +27,23 @@ Vue (dibaca /vjuː/, seperti view) adalah sebuah progressive framework untuk mem
 
 <p>Getting Started</p>
 
-<p>Cara terbaik untuk mencoba Vue.js adalah dengan mencoba menggunakan JSFiddle Hello World example. atau kamu bisa juga membuat sebuah <code>index.html</code> dan masukan Vue seperti berikut :</p>
+<p>Cara terbaik untuk mencoba Vue.js adalah dengan mencoba menggunakan JSFiddle Hello World example. atau kamu juga bisa membuat sebuah <code>index.html</code> dan masukan Vue seperti berikut :</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
 </pre></td><td class='code'><pre><code class='html'><span class='line'><span class="c">&lt;!-- development version, includes helpful console warnings --&gt;</span>
-</span><span class='line'><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>```
-</span><span class='line'>
-</span><span class='line'>atau
+</span><span class='line'><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>html</p>
+<p>atau</p>
 
-<!-- production version, optimized for size and speed -->
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="c">&lt;!-- production version, optimized for size and speed --&gt;</span>
+</span><span class='line'><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;https://cdn.jsdelivr.net/npm/vue&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
 
-
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-
-
-<p>```</p>
 ]]></content>
   </entry>
   
