@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: About | Villain]]></title>
-  <link href="villain.ga/blog/categories/about/atom.xml" rel="self"/>
-  <link href="villain.ga/"/>
-  <updated>2018-04-19T16:15:31+07:00</updated>
-  <id>villain.ga/</id>
+  <link href="http://agung1878.github.io/art/blog/categories/about/atom.xml" rel="self"/>
+  <link href="http://agung1878.github.io/art/"/>
+  <updated>2018-04-19T16:17:06+07:00</updated>
+  <id>http://agung1878.github.io/art/</id>
   <author>
     <name><![CDATA[A R A]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Knowing Me]]></title>
-    <link href="villain.ga/blog/2018/04/11/knowing-me/"/>
+    <link href="http://agung1878.github.io/art/blog/2018/04/11/knowing-me/"/>
     <updated>2018-04-11T15:58:17+07:00</updated>
-    <id>villain.ga/blog/2018/04/11/knowing-me</id>
+    <id>http://agung1878.github.io/art/blog/2018/04/11/knowing-me</id>
     <content type="html"><![CDATA[<h2>Wosh Everybody</h2>
 
 <p>Hi my name is Abdul Rahman Agung, i came from a corner city in West Java called Tasikmalaya. I&rsquo;m here because i have ability to share everything with you bout this Octopress and something about that. I&rsquo;m work in a company in capital city of Indonesia, here i can learn something that i couldn&rsquo;t get in my born city, thank in advance for who recrutiting me.</p>
