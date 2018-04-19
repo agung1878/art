@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Post | A R T]]></title>
-  <link href="http://agung1878.github.io/art/blog/categories/post/atom.xml" rel="self"/>
-  <link href="http://agung1878.github.io/art/"/>
-  <updated>2018-04-17T14:08:47+07:00</updated>
-  <id>http://agung1878.github.io/art/</id>
+  <title><![CDATA[Category: Post | Villain]]></title>
+  <link href="villain.ga/blog/categories/post/atom.xml" rel="self"/>
+  <link href="villain.ga/"/>
+  <updated>2018-04-19T16:15:31+07:00</updated>
+  <id>villain.ga/</id>
   <author>
-    <name><![CDATA[Agung]]></name>
+    <name><![CDATA[A R A]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Deploying]]></title>
-    <link href="http://agung1878.github.io/art/blog/2018/04/13/deploying/"/>
+    <link href="villain.ga/blog/2018/04/13/deploying/"/>
     <updated>2018-04-13T10:40:29+07:00</updated>
-    <id>http://agung1878.github.io/art/blog/2018/04/13/deploying</id>
+    <id>villain.ga/blog/2018/04/13/deploying</id>
     <content type="html"><![CDATA[<p>Deploying (GITHUB, HEROKU, RSYNC)</p>
 
 <p>Here are some nice and easy ways to deploy your Octopress blog.</p>
