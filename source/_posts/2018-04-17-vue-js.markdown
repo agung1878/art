@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Vue JS"
+date: 2018-04-17 11:03:53 +0700
+comments: true
+categories: 
+---
+
+##The Progressive JavaScript Framework
+
+
+###Pengenalan
+
+Apa itu Vue.js?
+Vue (dibaca /vjuː/, seperti view) adalah sebuah progressive framework untuk membangun user interfaces. Tidak seperti monolithic frameworks lainnya, Vue dirancang agar sangat mudah beradaptasi. Fokus library inti hanya pada layer view saja, sangat mudah untuk membawa atau mengintegrasi ke library lainnya atau ke project yang sudah ada. Selain itu juga, Vue juga sangat cocok untuk powering sophisticated Single-Page Applications ketika dikombinasikan dengan <a href ="https://vuejs.org/v2/guide/single-file-components.html">modern tooling</a> dan <a href="https://github.com/vuejs/awesome-vue#components--libraries">supporting libraries.</a>
+
+###Installation
+
+* Compatibility Note
+
+Vue tidak support IE8 dan versi bawahnya, karena menggunakan ECMAScript 5 features yang tidak sejalan dengan IE8. Bagaimanapun Vue support semua <a href = "https://caniuse.com/#feat=es5">ECMAScript 5 compliant browsers</a>.
+
+* Release Note 
+
+Versi terakhir stabil : 2.5.16
+Detail catatan rilis untuk setiap versi tersidia di <a href = "https://github.com/vuejs/vue/releases">Github</a>.
+
+###Vue Devtools
+
+Ketika menggunakan Vue, kami merekomendasikan agar juga menginstall <a href = "https://github.com/vuejs/vue-devtools#vue-devtools">Vue Devtools</a> di browser kamu, itu akan membantu mu untuk menginspek atau mendebug aplikasi Vue kamu agar lebih user-friendly interface.
+
+###Direct ```<script>``` Include
+
+Cukup donwload dan masukan script tag. ```Vue``` akan ter-register sebagai global variable.
+
+###Getting Started
+
+Cara terbaik untuk mencoba Vue.js adalah dengan mencoba menggunakan <a href="https://jsfiddle.net/chrisvfritz/50wL7mdz/">JSFiddle Hello World example</a>. atau kamu juga bisa membuat sebuah ```index.html``` dan masukan Vue seperti berikut :
+
+```html
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+```
+atau 
+
+```html
+<!-- production version, optimized for size and speed -->
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+```

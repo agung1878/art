@@ -17,3 +17,5 @@ So, the first thing u could mastering is your mind and your body because when u 
 
 Oke let's rock!
 What is Octopress ? i couldn't speak muck because im new too in this thing but im sure octopress is platform for us to share good thing without take to much time.
+
+Oke Sip AKMJ!!
