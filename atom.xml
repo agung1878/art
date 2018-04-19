@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[A R T]]></title>
+  <link href="http://agung1878.github.io/art/atom.xml" rel="self"/>
+  <link href="http://agung1878.github.io/art/"/>
+  <updated>2018-04-17T14:08:47+07:00</updated>
+  <id>http://agung1878.github.io/art/</id>
+  <author>
+    <name><![CDATA[Agung]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Vue JS]]></title>
+    <link href="http://agung1878.github.io/art/blog/2018/04/17/vue-js/"/>
+    <updated>2018-04-17T11:03:53+07:00</updated>
+    <id>http://agung1878.github.io/art/blog/2018/04/17/vue-js</id>
+    <content type="html"><![CDATA[<h2>The Progressive JavaScript Framework</h2>
+
+<h3>Pengenalan</h3>
+
+<p>Apa itu Vue.js?
+Vue (dibaca /vjuː/, seperti view) adalah sebuah progressive framework untuk membangun user interfaces. Tidak seperti monolithic frameworks lainnya, Vue dirancang agar sangat mudah beradaptasi. Fokus library inti hanya pada layer view saja, sangat mudah untuk membawa atau mengintegrasi ke library lainnya atau ke project yang sudah ada. Selain itu juga, Vue juga sangat cocok untuk powering sophisticated Single-Page Applications ketika dikombinasikan dengan <a href ="https://vuejs.org/v2/guide/single-file-components.html">modern tooling</a> dan <a href="https://github.com/vuejs/awesome-vue#components--libraries">supporting libraries.</a></p>
+
+<h3>Installation</h3>
+
+<ul>
+<li>Compatibility Note</li>
+</ul>
+
+
+<p>Vue tidak support IE8 dan versi bawahnya, karena menggunakan ECMAScript 5 features yang tidak sejalan dengan IE8. Bagaimanapun Vue support semua <a href = "https://caniuse.com/#feat=es5">ECMAScript 5 compliant browsers</a>.</p>
+
+<ul>
+<li>Release Note</li>
+</ul>
+
+
+<p>Versi terakhir stabil : 2.5.16
+Detail catatan rilis untuk setiap versi tersidia di <a href = "https://github.com/vuejs/vue/releases">Github</a>.</p>
+
+<h3>Getting Started</h3>
+
+<p>Cara terbaik untuk mencoba Vue.js adalah dengan mencoba menggunakan <a href="https://jsfiddle.net/chrisvfritz/50wL7mdz/">JSFiddle Hello World example</a>. atau kamu juga bisa membuat sebuah <code>index.html</code> dan masukan Vue seperti berikut :</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="c">&lt;!-- development version, includes helpful console warnings --&gt;</span>
+</span><span class='line'><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>atau</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="c">&lt;!-- production version, optimized for size and speed --&gt;</span>
+</span><span class='line'><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;https://cdn.jsdelivr.net/npm/vue&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Deploying]]></title>
+    <link href="http://agung1878.github.io/art/blog/2018/04/13/deploying/"/>
+    <updated>2018-04-13T10:40:29+07:00</updated>
+    <id>http://agung1878.github.io/art/blog/2018/04/13/deploying</id>
+    <content type="html"><![CDATA[<p>Deploying (GITHUB, HEROKU, RSYNC)</p>
+
+<p>Here are some nice and easy ways to deploy your Octopress blog.</p>
+
+<h3>GitHub Pages</h3>
+
+<p>Hosting your blog with GitHub&rsquo;s <a href="http://pages.github.com/">Pages service </a> is free and allows custom domains. To deploy you simply push your repository to GitHub. This is a great way to host a personal blog, or even a multi-author blog, where contributions can be handled with pull requests and commit access.</p>
+
+<p><a href="http://octopress.org/docs/deploying/github">Deploying to GitHub Pages »</a></p>
+
+<h3>Heroku</h3>
+
+<p>Like GitHub Pages, Heroku is also free, allows custom domains, and uses a git based deployment workflow. Heroku is a bit simpler to use and your blog repository remains private.</p>
+
+<p><a href="http://octopress.org/docs/deploying/heroku">Deploying to Heroku »</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Knowing Me]]></title>
+    <link href="http://agung1878.github.io/art/blog/2018/04/11/knowing-me/"/>
+    <updated>2018-04-11T15:58:17+07:00</updated>
+    <id>http://agung1878.github.io/art/blog/2018/04/11/knowing-me</id>
+    <content type="html"><![CDATA[<h2>Wosh Everybody</h2>
+
+<p>Hi my name is Abdul Rahman Agung, i came from a corner city in West Java called Tasikmalaya. I&rsquo;m here because i have ability to share everything with you bout this Octopress and something about that. I&rsquo;m work in a company in capital city of Indonesia, here i can learn something that i couldn&rsquo;t get in my born city, thank in advance for who recrutiting me.</p>
+
+<p>Before we begin, i have a question for you, are u fuckin serious with this new stuff ? if not, u can get the fvck out here! if u serious let&rsquo;s learn together cause ima noob too.</p>
+
+<p>So, the first thing u could mastering is your mind and your body because when u want learn something new, u maybe feel bored or uncomfortable and etc. So yeah make your mindset that learning is always fun and keep your healthy, because when u have strong mind but weak body that is nothing.</p>
+
+<p>Oke let&rsquo;s rock!
+What is Octopress ? i couldn&rsquo;t speak muck because im new too in this thing but im sure octopress is platform for us to share good thing without take to much time.</p>
+
+<p>Oke Sip AKMJ!!</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Vue JS - A R T</title>
+  <meta name="author" content="Agung">
+
+  <!-- Causes trouble with per-article font implementations under /source/_includes/article.html
+  
+  <meta name="description" content="Vue JS Apr 17th, 2018 11:03 am The Progressive JavaScript Framework Pengenalan Apa itu Vue.js?
+Vue (dibaca /vjuː/, seperti view) adalah sebuah &hellip;">
+  -->
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://agung1878.github.io/art/blog/2018/04/17/vue-js">
+  <link href="/art/favicon.png" rel="icon">
+  <link href="/art/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="" rel="alternate" title="A R T" type="application/atom+xml">
+  <script src="/art/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/art/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Poller+One" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Germania+One" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Lato&subset=latin-ext" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Cardo&subset=latin-ext" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=UnifrakturMaguntia&subset=all" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Arimo|EB+Garamond|PT+Sans+Caption&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+  
+
+</head>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<logo>
+
+<img src="/art/logo.png" alt="Website Logo. Upload to /source/logo.png ; disable in /source/_includes/logo.html" height="32px" width="32px">
+</logo>
+
+
+
+<body >
+  <header role="banner"><hgroup>
+  <h1><a href="/art/">A R T</a></h1>
+  
+    <h2>A blogging place for NOOB.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="main-navigation">
+  <li><a href="/art/">Blog</a></li>
+  <li><a href="/art/blog/archives">Archives</a></li>
+</ul>
+
+<br>
+
+      
+        <form action="https://www.google.com/search" method="get">
+          <fieldset role="search">
+            <input type="hidden" name="q" value="site:agung1878.github.io/art" />
+      
+      
+            <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+          </fieldset>
+        </form>
+  
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      
+        <h1 class="entry-title" style="font-family: ">Vue JS</h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2018-04-17T11:03:53+07:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>17</span><span class='date-suffix'>th</span>, <span class='date-year'>2018</span></span> <span class='time'>11:03 am</span></time>
+        
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content" style="font-family: ; font-size: "><h2>The Progressive JavaScript Framework</h2>
+
+<h3>Pengenalan</h3>
+
+<p>Apa itu Vue.js?
+Vue (dibaca /vjuː/, seperti view) adalah sebuah progressive framework untuk membangun user interfaces. Tidak seperti monolithic frameworks lainnya, Vue dirancang agar sangat mudah beradaptasi. Fokus library inti hanya pada layer view saja, sangat mudah untuk membawa atau mengintegrasi ke library lainnya atau ke project yang sudah ada. Selain itu juga, Vue juga sangat cocok untuk powering sophisticated Single-Page Applications ketika dikombinasikan dengan <a href ="https://vuejs.org/v2/guide/single-file-components.html">modern tooling</a> dan <a href="https://github.com/vuejs/awesome-vue#components--libraries">supporting libraries.</a></p>
+
+<h3>Installation</h3>
+
+<ul>
+<li>Compatibility Note</li>
+</ul>
+
+
+<p>Vue tidak support IE8 dan versi bawahnya, karena menggunakan ECMAScript 5 features yang tidak sejalan dengan IE8. Bagaimanapun Vue support semua <a href = "https://caniuse.com/#feat=es5">ECMAScript 5 compliant browsers</a>.</p>
+
+<ul>
+<li>Release Note</li>
+</ul>
+
+
+<p>Versi terakhir stabil : 2.5.16
+Detail catatan rilis untuk setiap versi tersidia di <a href = "https://github.com/vuejs/vue/releases">Github</a>.</p>
+
+<h3>Getting Started</h3>
+
+<p>Cara terbaik untuk mencoba Vue.js adalah dengan mencoba menggunakan <a href="https://jsfiddle.net/chrisvfritz/50wL7mdz/">JSFiddle Hello World example</a>. atau kamu juga bisa membuat sebuah <code>index.html</code> dan masukan Vue seperti berikut :</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="c">&lt;!-- development version, includes helpful console warnings --&gt;</span>
+</span><span class='line'><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>atau</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="c">&lt;!-- production version, optimized for size and speed --&gt;</span>
+</span><span class='line'><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;https://cdn.jsdelivr.net/npm/vue&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+
+
+  <footer class="page-footer">
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Text authored by <span class="fn">Agung</span></span>
+
+
+      
+
+
+
+
+<time class='entry-date' datetime='2018-04-17T11:03:53+07:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>17</span><span class='date-suffix'>th</span>, <span class='date-year'>2018</span></span> <span class='time'>11:03 am</span></time>
+      
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://agung1878.github.io/art/blog/2018/04/17/vue-js/" data-via="" data-counturl="http://agung1878.github.io/art/blog/2018/04/17/vue-js/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/art/blog/2018/04/13/deploying/" title="Previous Post: Deploying">&laquo; Deploying</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+
+</div>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Website copyright &copy; 2018 - Agung |
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> | Themed with <a href="https://github.com/TheChymera/Koenigspress">Königspress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
